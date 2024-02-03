@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: hsl(0, 0%, 8%) ;
+    color:hsl(0, 0%, 100%)    
+}
+.box{
+    height:500px;
+    width: 350px;
+    background-color:hsl(0, 0%, 12%) ;
+    border-radius: 2.7%;
+
+   
+}
+.parent-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4%;
+ 
+}
+.parent-pic{
+    display: grid;
+    place-items: center;
+    padding-top: 3%;
+}
+
+.pic{
+   
+    border-radius: 90%;
+    height: 95px;
+    width: 84px;
+    background-image: url(assets/images/avatar-jessica.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+h5{
+    padding-top: 3%;
+    text-align: center;
+    color: hsl(75, 94%, 57%);
+    font-family:Arial;
+    font-weight: 400, 600, 700;
+}
+h3{
+    text-align: center;
+    padding-top: 8%;
+    font-family:Arial;
+    font-weight: 400, 600, 700;
+}
+.parent-box p{
+    text-align: center;
+    padding-top: 10%;
+    color: hsl(0, 0%, 60%);
+}
+.button-box{
+    display: grid;
+    place-items: center;
+    padding-top: 35px;
+}
+.button{
+    height: 30px;
+    width: 250px;
+    border-radius: 2.7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-family: Arial;
+    font-weight: 400, 600, 700;
+    font:14px;
+}
+.button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+
+}
